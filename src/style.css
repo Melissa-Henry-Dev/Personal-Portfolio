@@ -24,6 +24,7 @@ footer {
 
 h2{
     color: #779FA1;
+    font-size: 48px;
 }
 
 .section-title{
@@ -57,14 +58,17 @@ h2{
 .project-card{
     width: 390px;
 }
+
 .project-title{
     font-size: 24px;
     
 }
+
 .project-container{
     display: flex;
     justify-content: space-evenly;
 }
+
 .links a{
     text-decoration: none;
     color: #fff;
@@ -76,6 +80,90 @@ h2{
     border-radius: 5px;
     padding: 5px;
 }
+
 .tech-stack{
     margin-bottom: 20px;
+}
+
+.card{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 30%;
+}
+
+.color {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.black{
+    background-color: #000;
+    color: #fff;
+}
+
+.lighter-black{
+    background-color: #0b0f10;
+    color: #fff;
+}
+
+.green-grey{
+    background-color: #171f20;
+    color: #fff;
+}
+
+.light-gg{
+    background-color: #232f30;
+    color: #fff;
+}
+
+.dark-green{
+    background-color: #2f3f40;
+    color: #fff;
+}
+
+.green{
+    background-color: #3b4f50;
+    color: #fff;
+}
+
+.light-green{
+    background-color: #475f60;
+    color: #fff;
+}
+
+.sea{
+    background-color: #536f70;
+    color: #fff;
+}
+
+.light-sea{
+    background-color: #5f7f80;
+    color: #fff;
+}
+
+.main{
+    background-color: #779FA1;
+    color: #fff;
+}
+
+.blueish{
+    background-color: #6b8f90;
+    color: #fff;
+}
+
+.blue{
+    background-color: #84a8aa;
+    color: #fff;
+}
+
+.sub-title{
+    color: #0b0f10;
+    font-size: 24px;
+    margin-left: 5%;
 }
